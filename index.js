@@ -30,7 +30,7 @@ var hs = polygonTemplate.states.create("hover");
 hs.properties.fill = am4core.color("#367B25");
 
 // Remove Antarctica
-polygonSeries.exclude = ["AQ"];
+// polygonSeries.exclude = ["AQ"];
 
 // Add some data
 polygonSeries.data = [{
